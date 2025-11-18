@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme._26A10208L0203">
         <activity
+            android:name=".ScoreActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
